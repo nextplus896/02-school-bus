@@ -15,11 +15,11 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*','broadcasting/auth', 'sanctum/csrf-cookie'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['http://es8wwgwwg0ggosssoosgw48s.77.237.235.3.sslip.io'],
 
     'allowed_origins_patterns' => [],
 
