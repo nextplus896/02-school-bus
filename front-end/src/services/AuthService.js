@@ -10,13 +10,13 @@ const userRoleEvent = 'userRole'
 const simpleModeEvent = 'simple_mode'
 
 const authClient = axios.create({
-  baseURL: "https://schoolbus.oneplus.com", // Laravel backend
+  baseURL: "https://schoolbus.nextoneplus.com", // Laravel backend
   withCredentials: true,            // Required for Sanctum
 });
 
 export default {
   async login2(payload) {
-    await authClient.get("https://schoolbus.oneplus.com/sanctum/csrf-cookie",{withCredentials: true});
+    await authClient.get("https://schoolbus.nextoneplus.com/sanctum/csrf-cookie",{withCredentials: true});
     return authClient.post("/login", payload);
   },
   isUserLoggedIn() {
@@ -65,7 +65,7 @@ export default {
       var token = await result.user.getIdToken(true);
       await axios({
         method:'get',
-        url:'https://schoolbus.oneplus.com/sanctum/csrf-cookie',
+        url:'https://schoolbus.nextoneplus.com/sanctum/csrf-cookie',
         withCredentials: true,
         // baseURL: '/backend',
        })
