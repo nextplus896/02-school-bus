@@ -1,3 +1,4 @@
+/app/Providers/TelescopeServiceProvider.php
 /front-end
 /.phpunit.cache
 /node_modules
