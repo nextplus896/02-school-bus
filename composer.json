@@ -25,13 +25,14 @@
         "razorpay/razorpay": "2.*",
         "simplesoftwareio/simple-qrcode": "^4.2",
         "stripe/stripe-php": "^13.10",
-        "yabacon/paystack-php": "^2.2"
+        "yabacon/paystack-php": "^2.2",
+        "laravel/telescope": "^5.13"
+
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
-        "laravel/telescope": "^5.13",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.1",
