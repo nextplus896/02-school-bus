@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['localhost:8080','http://localhost:8080','https://schoolbusfrontend.nextoneplus.com/'],
+    'allowed_origins' => ['localhost:8080','http://localhost:8080','https://schoolbusfrontend.nextoneplus.com'],
 
     'allowed_origins_patterns' => [],
 
