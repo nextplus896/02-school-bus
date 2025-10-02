@@ -33,6 +33,7 @@ class ActivationController extends Controller
             'activationCode' => 'required'
         ]);
 
+
         if ($validator->fails()) {
             //pass validator errors as errors object for ajax response
             return response()->json(['errors' => $validator->errors()], 422);
